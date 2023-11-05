@@ -515,21 +515,15 @@ img {
 	border: 1px solid #FFF;
 	filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.15));
 	color: #fff;
-	background-color: #2e2f42;
+	background-color: transparent;
 	font-size: 12px;
 	line-height: 1.5;
 	padding-left: 16px;
+	letter-spacing: 0.04em;
 }
 
 .input-subscribe::placeholder {
 	color: #fff;
-}
-
-
-.btn-subscribe-container {
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .subscribe-btn {
@@ -548,6 +542,7 @@ img {
 	border-radius: 4px;
 	color: #fff;
 	cursor: pointer;
+	border: none;
 
 }
 
@@ -715,6 +710,10 @@ img {
 	fill: #4D5AE5;
 }
 
+.form-rewiev-comment {
+	margin-bottom: 16px;
+}
+
 .form-message {
 	display: block;
 	font-size: 12px;
@@ -773,9 +772,9 @@ img {
 	margin-right: auto;
 	justify-content: center;
 	align-content: center;
-	width: 169px;
+	min-width: 169px;
 	height: 56px;
-	font-family: "roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
@@ -794,11 +793,9 @@ img {
 	align-items: center;
 	width: 16px;
 	height: 16px;
-	border-radius: 1px;
 	cursor: pointer;
 	fill: transparent;
 	border-radius: 2px;
-	margin-right: 8px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
