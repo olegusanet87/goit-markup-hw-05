@@ -312,7 +312,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	padding-top: 8px;
+	margin-top: 8px;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -732,6 +732,7 @@ img {
 	resize: none;
 	padding: 8px 16px;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	margin-bottom: 17px;
 }
 
 .form-message:focus {
@@ -797,13 +798,17 @@ img {
 	border-radius: 2px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	margin-right: 8px;
 
 }
+
+
 
 .form-input-check:checked+.check-privacy-text .rewiev-check-own-check {
 	border: none;
 	background-color: #404bbf;
-	fill: #f4f4fd;
+	fill: #404BBF;
+	stroke: #404BBF;
 }
 
 .form-input-check:focus+.check-privacy-text .rewiev-check-own-check {
