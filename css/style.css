@@ -807,7 +807,7 @@ img {
 .form-input-check:checked+.check-privacy-text .rewiev-check-own-check {
 	border: none;
 	background-color: #404bbf;
-	fill: #404BBF;
+	fill: #f4f4fd;
 	stroke: #404BBF;
 }
 
